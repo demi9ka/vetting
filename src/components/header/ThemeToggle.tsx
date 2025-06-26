@@ -26,7 +26,7 @@ export default function ThemeSwitch() {
 
   return (
     <Button variant={'outline'} onClick={toggleTheme} aria-label='Toggle theme'>
-      {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
+      {theme === 'dark' ? <Moon size={20} /> : <Sun size={20} />}
     </Button>
   )
 }
