@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='ru'>
-      <body className={`${raleway.variable} ${GeistSans.variable} pt-14  sm:px-2`}>
+      <body className={`${raleway.variable} ${GeistSans.variable} pt-16  px-2`}>
         <Header />
         {children}
       </body>
